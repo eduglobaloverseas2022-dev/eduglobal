@@ -33,7 +33,7 @@
 }
 .typing-text {
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal; /* allow wrapping by default (mobile) */
   border-right: 4px solid white;
   animation: typing 3s steps(40, end), blinkCaret 0.8s step-end infinite;
 }
@@ -50,4 +50,9 @@
   0% { background-position: 0% 50%; filter: drop-shadow(0 0 4px #fff); }
   50% { background-position: 100% 50%; filter: drop-shadow(0 0 10px #fff); }
   100% { background-position: 0% 50%; filter: drop-shadow(0 0 4px #fff); }
+}
+@media (min-width: 640px) { /* sm breakpoint */
+  .typing-text {
+    white-space: nowrap; /* single line on desktop */
+  }
 }

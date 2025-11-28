@@ -8,9 +8,11 @@ export default function Home() {
       <div className="absolute bottom-0 left-1/4 w-44 h-44 sm:w-56 sm:h-56 bg-white/5 rounded-full blur-2xl animate-float delay-4s"></div>
 
       {/* Headline */}
-      <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 glow-text typing-text max-w-full sm:max-w-xl md:max-w-2xl break-words sm:whitespace-normal">
-        Welcome to EduGlobal <span className="block sm:inline">Overseas</span>
-      </h1>
+<h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 glow-text typing-text max-w-full sm:max-w-xl md:max-w-2xl whitespace-normal sm:whitespace-nowrap">
+  Welcome to EduGlobal <span>Overseas</span>
+</h1>
+
+
 
       {/* Subheading */}
       <p className="text-xs sm:text-sm md:text-lg lg:text-xl text-white/90 mb-10 animate-fadeInUp max-w-full sm:max-w-md md:max-w-lg">
