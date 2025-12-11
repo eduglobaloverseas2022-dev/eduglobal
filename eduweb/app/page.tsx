@@ -16,7 +16,7 @@ export default function Home() {
 
       {/* Subheading */}
       <p className="text-xs sm:text-sm md:text-lg lg:text-xl text-white/90 mb-10 animate-fadeInUp max-w-full sm:max-w-md md:max-w-lg">
-        Our website is currently under construction. <br />
+        Our website is currently under construction . <br />
         Thank you for your patience!
       </p>
 
